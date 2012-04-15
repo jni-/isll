@@ -61,7 +61,7 @@ Assuming you have tomcat, deploy the war and open WEB-INF/ISLLConfig.xml. It sho
 * **logging** : Logging level (those supported by log4j)
 * **strict** : If true, the user will have to be in your LDAP. Otherwise, it will to authenticate against LDAP and if it fails, it will redirect to icescrum's login.
 
-§ Actually, it will be  principalIdentifierAttribute=<username>,ldapBase
+§ Actually, it will be  principalIdentifierAttribute=username,ldapBase
 
 Nginx
 -----
