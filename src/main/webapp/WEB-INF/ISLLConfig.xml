@@ -1,0 +1,18 @@
+
+<config>
+	<icescrumUrl>http://example.com:8080/icescrum</icescrumUrl>
+	<ldapUrl>ldap://example.com:389</ldapUrl>
+	<ldapBase>ou=people,dc=example,dc=com</ldapBase>
+	<firstNameAttribute>gn</firstNameAttribute>
+	<lastNameAttribute>sn</lastNameAttribute>
+	<emailAttribute>email</emailAttribute>
+	<usernameAttribute>cn</usernameAttribute>
+	<principalIdentifierAttribute>uid</principalIdentifierAttribute>
+	<lostPasswordUrl></lostPasswordUrl>
+	<jdbcClass>com.mysql.jdbc.Driver</jdbcClass>
+	<jdbcConnection>jdbc:mysql://localhost:3306/icescrum</jdbcConnection>
+	<dbUsername>icescrum</dbUsername>
+	<dbPassword>password</dbPassword>
+	<logging>warn</logging>
+	<strict>true</strict>
+</config>
