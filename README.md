@@ -86,7 +86,7 @@ For icescrum, add this :
             break;
         }
 
-        rewrite ^/icescrum/login(.*)$ http://isll.openagix.com/isll$1 break;
+        rewrite ^/icescrum/login(.*)$ http://isll.example.com/isll$1 break;
     }
 
 The norewrite condition will be used for the no-javascript fallback. If you don't want it, remove the if()
